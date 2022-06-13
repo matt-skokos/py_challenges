@@ -6,8 +6,6 @@ def breaking_records(scores):
         if idx == 0:
             max_score = scores[idx]
             min_score = scores[idx]
-            print(max_score)
-            print(min_score)
         elif idx == (len(scores) - 1):
             if scores[idx] > max_score:
                 max_score = scores[idx]
@@ -32,7 +30,6 @@ def breaking_records(scores):
 # compare this first index with the next and return 1 if
 
 
-# scores1 = [1, 2, 3, 4]
 scores1 = [10, 5, 20, 20, 4, 5, 2, 25, 1]
 
 print(breaking_records(scores1))
